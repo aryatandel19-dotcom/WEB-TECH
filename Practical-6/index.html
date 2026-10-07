@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHARUSAT Student Portal - Practical 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <div class="logo-box">C</div>
+                <div class="brand-text">
+                    <span class="brand-name">CHARUSAT</span>
+                    <span class="brand-sub">Student Portal</span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="#students">Students</a>
+                <a href="#events">Events</a>
+                <a href="#faqs">FAQs</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-wrapper">
+        <!-- Hero Section -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <span class="hero-tag">CHARUSAT UNIVERSITY</span>
+                <h1 class="hero-title">Student Information Portal</h1>
+                <p class="hero-subtitle">
+                    View student records, campus events and frequently asked questions using external JSON data.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" onclick="fetchData()">Fetch Data</button>
+                    <button class="btn btn-outline" onclick="fetchData()">↻ Reload Data</button>
+                </div>
+            </div>
+            <div class="hero-badge-card">
+                <div class="hero-badge-header">Practical 6</div>
+                <div class="hero-badge-sub">External JSON Data</div>
+                <span class="badge-tag">Fetch API</span>
+            </div>
+        </section>
+
+        <!-- Student Directory Section -->
+        <section id="students" class="content-section">
+            <div class="section-header">
+                <div>
+                    <span class="section-tag">STUDENT DIRECTORY</span>
+                    <h2 class="section-title">Student Profiles</h2>
+                </div>
+                <div class="badge-container">
+                    <span id="studentCount" class="count-badge">15 Students</span>
+                </div>
+            </div>
+
+            <!-- Filters & Search Toolbar -->
+            <div class="toolbar">
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="Search by name, email or course..." 
+                        autocomplete="off"
+                    >
+                </div>
+                <div class="filter-box">
+                    <select id="yearFilter">
+                        <option value="all">All Years</option>
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                </div>
+                <div class="sort-box">
+                    <select id="sortSelect">
+                        <option value="name">Sort by Name</option>
+                        <option value="cgpa-desc">CGPA High to Low</option>
+                        <option value="cgpa-asc">CGPA Low to High</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Status Indicator -->
+            <div id="status" class="status-indicator">Loading data...</div>
+
+            <!-- Students Grid -->
+            <div id="studentsContainer" class="students-grid"></div>
+
+            <!-- Pagination -->
+            <div id="pagination" class="pagination-container"></div>
+        </section>
+
+        <!-- Campus Activities Section -->
+        <section id="events" class="content-section">
+            <div class="section-header">
+                <div>
+                    <span class="section-tag">CAMPUS ACTIVITIES</span>
+                    <h2 class="section-title">Upcoming Events</h2>
+                </div>
+            </div>
+            <div id="eventsContainer" class="events-grid"></div>
+        </section>
+
+        <!-- Help Center / FAQ Section -->
+        <section id="faqs" class="content-section">
+            <div class="section-header">
+                <div>
+                    <span class="section-tag">HELP CENTER</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+            </div>
+            <div id="faqsContainer" class="faqs-list"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <strong>CHARUSAT Student Portal</strong>
+                <span>Web Technology Practical 6</span>
+            </div>
+            <div class="footer-right">
+                <span>&copy; 2026 CHARUSAT University | Niyati Raiyani</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

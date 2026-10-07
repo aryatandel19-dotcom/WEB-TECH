@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Niyati Raiyani",
+    "email": "25aiml060@charusat.edu.in",
+    "course": "AIML",
+    "year": 1,
+    "cgpa": 8.7
+  },
+  {
+    "name": "Dhanvi Patel",
+    "email": "25aiml061@charusat.edu.in",
+    "course": "AIML",
+    "year": 1,
+    "cgpa": 8.4
+  },
+  {
+    "name": "Krina Sorathiya",
+    "email": "25aiml062@charusat.edu.in",
+    "course": "AIML",
+    "year": 1,
+    "cgpa": 9.1
+  },
+  {
+    "name": "Jiya Patel",
+    "email": "25cse063@charusat.edu.in",
+    "course": "CSE",
+    "year": 1,
+    "cgpa": 8.1
+  },
+  {
+    "name": "Aarav Shah",
+    "email": "24cse101@charusat.edu.in",
+    "course": "CSE",
+    "year": 2,
+    "cgpa": 8.2
+  },
+  {
+    "name": "Riya Mehta",
+    "email": "24it102@charusat.edu.in",
+    "course": "IT",
+    "year": 2,
+    "cgpa": 9.0
+  },
+  {
+    "name": "Dhruv Patel",
+    "email": "24aiml103@charusat.edu.in",
+    "course": "AIML",
+    "year": 2,
+    "cgpa": 8.6
+  },
+  {
+    "name": "Harsh Vora",
+    "email": "24aiml104@charusat.edu.in",
+    "course": "AIML",
+    "year": 2,
+    "cgpa": 8.7
+  },
+  {
+    "name": "Mahi Desai",
+    "email": "23cse105@charusat.edu.in",
+    "course": "CSE",
+    "year": 3,
+    "cgpa": 8.8
+  },
+  {
+    "name": "Yash Joshi",
+    "email": "23it106@charusat.edu.in",
+    "course": "IT",
+    "year": 3,
+    "cgpa": 7.9
+  },
+  {
+    "name": "Kavya Shah",
+    "email": "23aiml107@charusat.edu.in",
+    "course": "AIML",
+    "year": 3,
+    "cgpa": 9.2
+  },
+  {
+    "name": "Anaya Shah",
+    "email": "23it108@charusat.edu.in",
+    "course": "IT",
+    "year": 3,
+    "cgpa": 9.0
+  },
+  {
+    "name": "Dev Patel",
+    "email": "22cse109@charusat.edu.in",
+    "course": "CSE",
+    "year": 4,
+    "cgpa": 8.5
+  },
+  {
+    "name": "Hetvi Parmar",
+    "email": "22it110@charusat.edu.in",
+    "course": "IT",
+    "year": 4,
+    "cgpa": 8.9
+  },
+  {
+    "name": "Meet Trivedi",
+    "email": "22aiml111@charusat.edu.in",
+    "course": "AIML",
+    "year": 4,
+    "cgpa": 9.3
+  }
+]
